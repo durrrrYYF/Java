@@ -1,26 +1,39 @@
 /*
-´´½¨Ò»¸ö¼òµ¥µÄ±íÊ¾¾ØÐÎµÄRectangleÀà£¬Âú×ãÒÔÏÂÌõ¼þ£º
+åˆ›å»ºä¸€ä¸ªç®€å•çš„è¡¨ç¤ºçŸ©å½¢çš„Rectangleç±»ï¼Œæ»¡è¶³ä»¥ä¸‹æ¡ä»¶ï¼š
 
-£¨1£©¶¨ÒåÁ½¸ö³ÉÔ±±äÁ¿heightºÍwidth£¬±íÊ¾¾ØÐÎµÄ³¤ºÍ¿í£¬ÀàÐÍÎªÕûÐÍ 
-£¨2£©¶¨ÒåÒ»¸ögetArea·½·¨£¬·µ»Ø¾ØÐÎµÄÃæ»ý 
-£¨3£©¶¨ÒåÒ»¸ögetPerimeter·½·¨£¬·µ»Ø¾ØÐÎµÄÖÜ³¤ 
-£¨4£©ÔÚmainº¯ÊýÖÐ£¬ÀûÓÃÊäÈëµÄ2¸ö²ÎÊý·Ö±ð×÷Îª¾ØÐÎµÄ³¤ºÍ¿í£¬µ÷ÓÃgetAreaºÍgetPermeter·½·¨£¬¼ÆËã²¢·µ»Ø¾ØÐÎµÄÃæ»ýºÍÖÜ³¤
+ï¼ˆ1ï¼‰å®šä¹‰ä¸¤ä¸ªæˆå‘˜å˜é‡heightå’Œwidthï¼Œè¡¨ç¤ºçŸ©å½¢çš„é•¿å’Œå®½ï¼Œç±»åž‹ä¸ºæ•´åž‹ 
+ï¼ˆ2ï¼‰å®šä¹‰ä¸€ä¸ªgetAreaæ–¹æ³•ï¼Œè¿”å›žçŸ©å½¢çš„é¢ç§¯ 
+ï¼ˆ3ï¼‰å®šä¹‰ä¸€ä¸ªgetPerimeteræ–¹æ³•ï¼Œè¿”å›žçŸ©å½¢çš„å‘¨é•¿ 
+ï¼ˆ4ï¼‰åœ¨mainå‡½æ•°ä¸­ï¼Œåˆ©ç”¨è¾“å…¥çš„2ä¸ªå‚æ•°åˆ†åˆ«ä½œä¸ºçŸ©å½¢çš„é•¿å’Œå®½ï¼Œè°ƒç”¨getAreaå’ŒgetPermeteræ–¹æ³•ï¼Œè®¡ç®—å¹¶è¿”å›žçŸ©å½¢çš„é¢ç§¯å’Œå‘¨é•¿
 
- ÊäÈë£º
- ÊäÈë2¸öÕýÕûÊý£¬ÖÐ¼äÓÃ¿Õ¸ñ¸ô¿ª£¬·Ö±ð×÷Îª¾ØÐÎµÄ³¤ºÍ¿í£¬ÀýÈç£º5 8
+ è¾“å…¥ï¼š
+ è¾“å…¥2ä¸ªæ­£æ•´æ•°ï¼Œä¸­é—´ç”¨ç©ºæ ¼éš”å¼€ï¼Œåˆ†åˆ«ä½œä¸ºçŸ©å½¢çš„é•¿å’Œå®½ï¼Œä¾‹å¦‚ï¼š5 8
 
- Êä³ö£º
- Êä³ö2¸öÕýÕûÊý£¬ÖÐ¼äÓÃ¿Õ¸ñ¸ô¿ª£¬·Ö±ð±íÊ¾¾ØÐÎµÄÃæ»ýºÍÖÜ³¤£¬ÀýÈç£º40 26
+ è¾“å‡ºï¼š
+ è¾“å‡º2ä¸ªæ­£æ•´æ•°ï¼Œä¸­é—´ç”¨ç©ºæ ¼éš”å¼€ï¼Œåˆ†åˆ«è¡¨ç¤ºçŸ©å½¢çš„é¢ç§¯å’Œå‘¨é•¿ï¼Œä¾‹å¦‚ï¼š40 26
 */
 public class rectangle{
 	public static void main(String[] args){
-        
-        //»ñµÃ³¤ºÍ¿íµÄÊäÈë
+        private double width;
+        private double height; 
+        //èŽ·å¾—é•¿å’Œå®½çš„è¾“å…¥
         Scanner input=new Scanner(System.in); 
 	String LW=input.nextLine();
-                  
- 	//½«ÊäÈëµÃµ½µÄ×Ö·û´®×ª»»Îª³¤ºÍ¿íµÄÊýÖµ
+        String[] LandW = LW.split(" ");
+            public define(double w,double h)
 
-        //Êä³öÃæ»ýºÍÖÜ³¤ 
+                 {
+
+                  width=w;
+
+                  height=h;
+
+                 }      
+ 	//å°†è¾“å…¥å¾—åˆ°çš„å­—ç¬¦ä¸²è½¬æ¢ä¸ºé•¿å’Œå®½çš„æ•°å€¼
+             public double getArea()
+	     {
+		     
+	     }
+        //è¾“å‡ºé¢ç§¯å’Œå‘¨é•¿ 
 	}
 }
